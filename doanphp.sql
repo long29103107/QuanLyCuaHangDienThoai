@@ -1,4 +1,6 @@
-﻿create table sanpham(
+﻿create database chdt;
+use chdt;
+create table sanpham(
 	idsanpham int AUTO_INCREMENT primary key,
 	anhdaidien varchar(50),
 	Tensp varchar(50),
